@@ -1,6 +1,8 @@
 # COAWST-SCS
 
-[Project homepage](index.html) · [Official COAWST repository](https://github.com/DOI-USGS/COAWST)
+[![COAWST-SCS conceptual overview](assets/coawst-scs-concept-v21.png)](https://thushiyang.github.io/COAWST-SCS/)
+
+[Project homepage](https://thushiyang.github.io/COAWST-SCS/) · [COAWST source repository](https://github.com/DOI-USGS/COAWST)
 
 ## Contents
 
