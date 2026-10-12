@@ -2,6 +2,8 @@
 
 [![COAWST-SCS conceptual overview](assets/coawst-scs-concept-v21.png)](https://thushiyang.github.io/COAWST-SCS/)
 
+COAWST-SCS investigates how wave–current interactions shape non-tidal water-level extremes during tropical cyclones (TCs) in the South China Sea. Built on the COAWST modeling framework, it combines coupled simulations and controlled process-isolation experiments to link wave–current processes, coupled coastal dynamics and water-level responses.
+
 [Project homepage](https://thushiyang.github.io/COAWST-SCS/) · [COAWST source repository](https://github.com/DOI-USGS/COAWST)
 
 ## Contents
