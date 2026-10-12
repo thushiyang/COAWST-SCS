@@ -1,23 +1,95 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>COAWST-SCS</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>COAWST-SCS · README</title><style>
 :root{color-scheme:dark}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#0d1117;color:#e6edf3;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft Yahei",sans-serif}a{color:#58a6ff;text-decoration:none}a:hover{text-decoration:underline}.repo{max-width:1180px;margin:35px auto 0;padding:0 25px;color:#8b949e;font-size:14px}.repo strong{color:#58a6ff;font-size:21px}.shell{max-width:1180px;margin:18px auto 60px;border:1px solid #30363d;border-radius:6px}.tabs{border-bottom:1px solid #30363d;padding:16px 28px;background:#0d1117;display:flex;gap:28px;font-size:14px}.tabs span{position:relative;font-weight:600}.tabs span:after{content:'';position:absolute;height:3px;background:#f78166;left:0;right:0;bottom:-17px}.tabs small{color:#8b949e;margin-left:auto}main{padding:35px 45px 60px}.hero{text-align:center;padding:18px 0 35px}.hero h1{font-size:clamp(45px,6vw,76px);line-height:1.15;letter-spacing:1px;margin:16px 0;color:#7dd3cb}.hero h1 span{color:#e6edf3}.hero .sub{font-size:21px;color:#8b949e;margin:8px 0}.hero .desc{font-size:14px;color:#a7b6c4}.badges{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;margin:25px 0}.badge{display:inline-flex;font-size:12px;line-height:24px;color:#fff;border-radius:3px;overflow:hidden}.badge b{font-weight:400;background:#484f58;padding:0 7px}.badge i{font-style:normal;background:#187e81;padding:0 8px}.hero nav{margin:26px 0 0;line-height:2}h2{font-size:27px;line-height:1.35;padding-bottom:10px;border-bottom:1px solid #30363d;margin:38px 0 19px;scroll-margin-top:15px}p{margin:14px 0}.bullet{padding-left:23px;position:relative}.bullet:before{content:'•';position:absolute;left:4px}.concept{border:1px dashed #465461;border-radius:5px;background:#101820;text-align:center;padding:65px 20px;margin:25px 0}.concept span{font-size:12px;letter-spacing:3px;color:#58a6ff}.concept p{font-size:22px;color:#b8c4cd}.concept small{color:#8b949e}pre{padding:20px 24px;background:#161b22;border-radius:6px;overflow:auto;font:13px/1.75 Consolas,monospace;color:#d2e8f5}table{border-collapse:collapse;font-size:14px;width:100%}td{border:1px solid #30363d;padding:9px 13px}tr:nth-child(odd){background:#161b22}footer{border-top:1px solid #30363d;padding-top:25px;margin-top:40px;color:#8b949e;font-size:12px}@media(max-width:700px){.shell{margin:12px;border-radius:4px}main{padding:20px}.repo{padding:0 16px}.tabs{padding:12px 20px}.hero .sub{font-size:17px}h2{font-size:23px}.concept{padding:42px 15px}}
-.workflow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin:26px 0 42px}.workflow section{border-top:1px solid #35434b;padding-top:18px}.workflow img{display:block;width:100%;height:105px;object-fit:contain;object-position:left;margin-bottom:17px}.workflow .step{display:block;color:#db9475;font:25px Georgia,serif;margin:8px 0}.workflow h3{font-size:16px;line-height:1.4;margin:10px 0}.workflow p{font-size:13px;color:#9daebc;line-height:1.8}.hero .sub{line-height:1.5}@media(max-width:900px){.workflow{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.workflow{grid-template-columns:1fr}}</style></head><body><div class="repo"><strong>COAWST-SCS</strong> <span> / project homepage</span></div><div class="shell"><div class="tabs"><span>▤ &nbsp; README</span><a href="#citation-and-license">License & attribution</a></div><main><div class="hero"><h1>COAWST<span>-SCS</span></h1><p class="sub">From wave–current processes to coupled coastal dynamics<br>and non-tidal water-level extremes</p><p class="desc"><a href="https://nus-ccl.com/" target="_blank" rel="noopener">NUS-CCL · Computational Coastal Lab</a><br>National University of Singapore</p><div class="badges"><span class="badge"><b>Model</b><i>ROMS + SWAN</i></span><span class="badge"><b>Analysis</b><i>Python</i></span><span class="badge"><b>Runtime</b><i>Linux / WSL2</i></span><span class="badge"><b>Local source</b><i>COAWST 3.8</i></span></div><nav><a href="#overview">Overview</a> | <a href="#key-features">Features</a> | <a href="#official-resources">Official Resources</a> | <a href="#team-contact">Team &amp; Contact</a> | <a href="#acknowledgements">Acknowledgements</a></nav></div><h2 id="overview">Overview</h2>
+.workflow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin:26px 0 42px}.workflow section{border-top:1px solid #35434b;padding-top:18px}.workflow img{display:block;width:100%;height:105px;object-fit:contain;object-position:left;margin-bottom:17px}.workflow .step{display:block;color:#db9475;font:25px Georgia,serif;margin:8px 0}.workflow h3{font-size:16px;line-height:1.4;margin:10px 0}.workflow p{font-size:13px;color:#9daebc;line-height:1.8}.hero .sub{line-height:1.5}@media(max-width:900px){.workflow{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.workflow{grid-template-columns:1fr}}</style></head><body><div class="repo"><strong>COAWST-SCS</strong> <span> / project homepage preview</span></div><div class="shell"><div class="tabs"><span>▤ &nbsp; README</span><a href="#citation-and-license">License & attribution</a><small>Offline draft</small></div><main><div class="hero"><h1>COAWST<span>-SCS</span></h1><p class="sub">From wave–current processes to coupled coastal dynamics<br>and non-tidal water-level extremes</p><p class="desc"><a href="https://nus-ccl.com/" target="_blank" rel="noopener">NUS-CCL · Computational Coastal Lab</a><br>National University of Singapore</p><div class="badges"><span class="badge"><b>Model</b><i>ROMS + SWAN</i></span><span class="badge"><b>Analysis</b><i>Python</i></span><span class="badge"><b>Runtime</b><i>Linux / WSL2</i></span><span class="badge"><b>Local source</b><i>COAWST 3.8</i></span></div><nav><a href="#overview">Overview</a> | <a href="#key-features">Features</a> | <a href="#official-resources">Official Resources</a> | <a href="#getting-started">Quick Start</a> | <a href="#repository-contents">Repository</a> | <a href="#team-contact">Team &amp; Contact</a> | <a href="#acknowledgements">Acknowledgements</a></nav></div><h2 id="overview">Overview</h2>
 <p>Wave–current interactions can substantially modify coastal water levels during tropical cyclones. Yet how their multiple, bidirectional processes collectively shape non-tidal extremes remains poorly understood. We investigate this question in the South China Sea using COAWST simulations and controlled process-isolation experiments. We find that large non-tidal water-level responses preferentially occur in strongly coupled states dominated by wave effects on currents.</p>
 <p><strong>COAWST-SCS</strong> organizes a South China Sea application of the <strong>Coupled Ocean–Atmosphere–Wave–Sediment Transport (COAWST)</strong> modeling system. It connects local case configuration with wave–current process diagnostics, the <i>WCI</i><sub>M</sub>/<i>WCI</i><sub>D</sub> framework, and manuscript analysis code.</p>
-
-<h2 id="research-workflow">Research Workflow</h2><div class="workflow"><section><span class="step">01</span><h3>Define coupled states</h3><p>Relate current-speed and wave-height responses to WCI and non-tidal water levels.</p></section><section><span class="step">02</span><h3>Resolve dynamical processes</h3><p>Native diagnostics, equivalent scales, configuration contrasts and residual proxies.</p></section><section><span class="step">03</span><h3>Identify environmental structure</h3><p>Separate process activity, reconstruction importance and response associations.</p></section><section><span class="step">04</span><h3>Compare spatial settings</h3><p>Examine terrain contrasts, high-response locations and distant coastal analogues.</p></section></div><h2 id="why-the-name">Why the Name?</h2>
+<figure style="margin:25px 0;border:1px solid #30363d;border-radius:6px;overflow:hidden;background:#081724"><a href="assets/coawst-scs-concept-v21.png" target="_blank" rel="noopener" title="Open full-size conceptual overview"><img src="assets/coawst-scs-concept-v21.png" alt="COAWST-SCS: historical and synthetic tropical cyclone forcing used in this study, optional WRF atmospheric simulation, and ROMS–SWAN wave–current coupling over a steep continental slope." width="1672" height="941" style="display:block;width:100%;height:auto"></a></figure>
+<h2 id="research-workflow">Research Workflow</h2><div class="workflow"><section><img src="assets/workflow_1.svg" alt="" width="120" height="105"><span class="step">01</span><h3>Define coupled states</h3><p>Relate current-speed and wave-height responses to WCI and non-tidal water levels.</p></section><section><img src="assets/workflow_2.svg" alt="" width="120" height="105"><span class="step">02</span><h3>Resolve dynamical processes</h3><p>Native diagnostics, equivalent scales, configuration contrasts and residual proxies.</p></section><section><img src="assets/workflow_3.svg" alt="" width="120" height="105"><span class="step">03</span><h3>Identify environmental structure</h3><p>Separate process activity, reconstruction importance and response associations.</p></section><section><img src="assets/workflow_4.svg" alt="" width="120" height="105"><span class="step">04</span><h3>Compare spatial settings</h3><p>Examine terrain contrasts, high-response locations and distant coastal analogues.</p></section></div><h2 id="why-the-name">Why the Name?</h2>
 <p><strong>COAWST-SCS</strong> is built on the COAWST modeling framework to investigate wave–current coupling and non-tidal water-level responses in the South China Sea. <strong>COAWST</strong> is developed by USGS and its contributors; <strong>SCS</strong> denotes our South China Sea case implementation and research workflow.</p>
 <h2 id="key-features">Key Features</h2>
 <p class="bullet">ROMS–SWAN case configuration for a South China Sea application.</p>
 <p class="bullet">Process-level activity and response diagnostics, with explicit distinctions between native terms, configuration contrasts and residual proxies.</p>
 <p class="bullet">WCI_M and WCI_D for complementary descriptions of coupling magnitude and directional dominance.</p>
-
-
+<p class="bullet">Python analysis and plotting source, with available derived data stored in the repository.</p>
+<p class="bullet">Local build and MPI execution instructions; no browser-based model execution.</p>
 <h2 id="official-resources">Official Resources</h2>
 <p>The following resources are maintained by USGS or the official COAWST project. External links require an internet connection.</p>
 <p class="bullet"><a href="https://www.usgs.gov/centers/whcmsc/science/coawst-a-coupled-ocean-atmosphere-wave-sediment-transport-modeling-system#publications">Official COAWST Website — USGS</a></p>
 <p class="bullet"><a href="https://www.usgs.gov/node/279414">COAWST Components &amp; Environment</a></p>
 <p class="bullet"><a href="https://github.com/DOI-USGS/COAWST">COAWST source repository</a></p>
 <p class="bullet"><a href="https://github.com/DOI-USGS/COAWST/wiki/COAWST-Trainings">COAWST training resources</a></p>
+<p>The instructions below are project-authored notes based on the local configuration and official repository guidance.</p>
+<h2 id="local-workflow">Local Model &amp; Reproducibility</h2><p>A local Linux / WSL2 environment is required. Model execution is not available in the browser.</p><div class="workflow"><section><img src="assets/workflow_5.svg" alt="" width="120" height="105"><span class="step">01</span><h3>Prepare the toolchain</h3><p>Configure GNU Fortran, MPI, NetCDF and MCT in a separate Linux environment.</p></section><section><img src="assets/workflow_6.svg" alt="" width="120" height="105"><span class="step">02</span><h3>Configure the case</h3><p>Set headers, paths, grids, initial and boundary conditions, and forcing.</p></section><section><img src="assets/workflow_7.svg" alt="" width="120" height="105"><span class="step">03</span><h3>Compile and smoke-test</h3><p>Validate official examples before building and testing the adapted CPL-0 case.</p></section><section><img src="assets/workflow_8.svg" alt="" width="120" height="105"><span class="step">04</span><h3>Validate the simulation</h3><p>Check logs, time axes, data validity and coupling exchange before analysis.</p></section></div><h2 id="getting-started">Getting Started</h2>
+<p>This is a local modeling workflow. The reviewed local source identifies itself as COAWST 3.8; the current upstream README identifies 3.9. Use a consistent source revision, compiler and library stack. This package is not a complete one-command reproduction of all manuscript experiments.</p>
+<h2 id="1-prepare-the-local-environment">1. Prepare the Local Environment</h2>
+<p>The inspected local stack is Ubuntu 22.04.5 on WSL2, GNU Fortran 11.4.0, OpenMPI 4.1.2, NetCDF-C 4.8.1 and NetCDF-Fortran 4.5.4. MCT must also be built and configured for the selected model revision. Coupled grids may require SCRIP weights. A Python or Conda environment does not replace this compiled-model toolchain.</p>
+<p>Run setup commands only in your own Linux workspace, never in the original research project or an existing production case:</p>
+<pre><code>sudo apt update
+sudo apt install build-essential gfortran cmake git perl csh tcsh m4 \
+  openmpi-bin libopenmpi-dev libnetcdf-dev libnetcdff-dev netcdf-bin \
+  libhdf5-dev libhdf5-openmpi-dev
+mkdir -p ~/model/src ~/model/projects ~/model/runs ~/model/logs
+git clone https://github.com/DOI-USGS/COAWST.git ~/model/src/COAWST
+git -C ~/model/src/COAWST checkout 015bb31f138285d399d30b82f50332ce2b477203</code></pre>
+<p>These commands install base packages and obtain the source; they are not a complete installation. Follow the manual for the selected revision to build MCT and configure compiler, MPI, NetCDF and MCT paths. Validate the official Upwelling and Inlet_test Coupled examples before adapting the SCS case.</p>
+<h2 id="2-prepare-the-scs-case">2. Prepare the SCS Case</h2>
+<p>Extract the <a href="src/scs/H1P2_CPL0_configuration.zip">CPL-0 configuration package</a> into a separate workspace, for example ~/model/projects/H1P2/CPL-0.</p>
+<table>
+<tr><td>File</td><td>Purpose</td></tr>
+<tr><td>scs_couple.h</td><td>Application CPP header: model components and physical-process switches</td></tr>
+<tr><td>ana_fsobc.h / ana_sediment.h</td><td>Analytical boundary or parameter routines, enabled conditionally</td></tr>
+<tr><td>coawst.bash</td><td>Locally adapted build entry point</td></tr>
+<tr><td>build_coawst_H1P2_CPL0_wsl.sh</td><td>Case-specific build script</td></tr>
+<tr><td>coupling_scs.in</td><td>Component process counts, input files and coupling weights</td></tr>
+<tr><td>scs_roms.in</td><td>Ocean grid, time stepping, initial/boundary/forcing files and outputs</td></tr>
+<tr><td>scs_swan.in</td><td>Wave grid, spectrum, forcing and simulation period</td></tr>
+<tr><td>scs_roms_sta.in</td><td>Station configuration</td></tr>
+</table>
+<p>Grid, initial-condition, boundary, atmospheric-forcing and coupling-weight files must be prepared separately. These large inputs are not distributed here. The copied configuration retains machine-specific paths for traceability and cannot be run immediately after extraction.</p>
+<h2 id="3-configure-headers-and-build-paths">3. Configure Headers and Build Paths</h2>
+<p>The application name is SCS_COUPLE and its header is scs_couple.h. The inspected header enables ROMS_MODEL, SWAN_MODEL and MCT_LIB. Process switches include WEC_VF, WAVE_MIXING, SURFACE_STREAMING, BOTTOM_STREAMING, UV_ADV, DJ_GRADPS and GLS_MIXING; interpret each in the context of the selected model revision.</p>
+<p>Adapt the following settings inside your copy of the build script:</p>
+<pre><code>export COAWST_APPLICATION=SCS_COUPLE
+export MY_ROOT_DIR=&quot;$HOME/model/src/COAWST&quot;
+export MY_PROJECT_DIR=&quot;$HOME/model/projects/H1P2/CPL-0&quot;
+export MY_HEADER_DIR=&quot;$MY_PROJECT_DIR&quot;
+export MY_ANALYTICAL_DIR=&quot;$MY_PROJECT_DIR&quot;
+export BINDIR=&quot;$MY_PROJECT_DIR&quot;
+export SCRATCH_DIR=&quot;$MY_PROJECT_DIR/Build_roms&quot;</code></pre>
+<p>Also verify FORT, MPI and library paths. An external export may be overridden by assignments inside the script. The supplied coawst.bash sources a machine-specific .bashrc_coawst: replace that reference with your own validated environment configuration. This file is not automatically supplied by COAWST.</p>
+<h2 id="4-compile">4. Compile</h2>
+<pre><code>cd ~/model/projects/H1P2/CPL-0
+# Load your configured compiler/MPI/NetCDF/MCT environment first.
+bash ./coawst.bash -j 2
+# Alternatively, use the case-specific build script, not both:
+# bash ./build_coawst_H1P2_CPL0_wsl.sh -j 2</code></pre>
+<p>The expected local executable is coawstM, not ./coawst. Rebuild appropriately after changing CPP headers or compiler options; do not mix incompatible old object files.</p>
+<h2 id="5-run-a-smoke-test-then-the-case">5. Run a Smoke Test, Then the Case</h2>
+<p>Before execution, check every input path, the smoke-test period and independent output filenames. The inspected coupling configuration uses NnodesOCN=9 and NnodesWAV=1, giving 10 MPI processes. ROMS tile decomposition must also match.</p>
+<pre><code>mpirun -np 10 ./coawstM coupling_scs_smoke.in
+# Only after validation and confirming outputs cannot overwrite prior results:
+mpirun -np 10 ./coawstM coupling_scs.in</code></pre>
+<p>Use mpirun from your configured PATH. Writing ./mpirun instead would refer to an executable in the current directory. Adjust process counts for other cases. Check exit status, completion logs, output time axes, valid values, coupling exchange and scientific validation; producing an output file alone does not establish a correct simulation.</p>
+<h2 id="repository-contents">Repository Contents</h2>
+<p>Manuscript figures and their available plotting data are stored in the repository. The homepage presents a conceptual overview of the research framework.</p>
+<pre><code>README.md                  Project overview
+index.html                 Project homepage
+assets/                    Conceptual illustration and website assets
+src/
+├── coawst/                Local COAWST source archive
+└── scs/                   SCS case scripts, headers and configurations
+out/                       Approved figures and clean redraw packages
+├── Fig01/
+├── Fig02/
+├── Fig03/
+└── …
+doc/                       Environment, compilation and execution notes</code></pre>
+<p>Figures 1–6 match the approved gallery. Their standalone plotting scripts and minimal data packages are being prepared and are not yet included. Raw model data are excluded.</p>
+<h2 id="downloads-and-documentation">Downloads and Documentation</h2>
+<p class="bullet"><a href="src/coawst/index.html">Local COAWST text-source subset</a></p>
+<p class="bullet"><a href="src/scs/H1P2_CPL0_configuration.zip">CPL-0 scripts, headers and input configurations</a></p>
+<p class="bullet"><a href="doc/LOCAL_ENVIRONMENT_AND_RUN.md">Local environment and execution notes</a></p>
+<p class="bullet"><a href="doc/model_case_manifest.json">Model revision and file hashes</a></p>
 <h2 id="team-contact">Development Team &amp; Contact</h2>
 <p><strong>Contributing authors:</strong> Yang SHI (<a href="mailto:yangshi@nus.edu.sg">yangshi@nus.edu.sg</a>); Zhengyu HU (<a href="mailto:z.hu@u.nus.edu">z.hu@u.nus.edu</a>); Ying Min Low (<a href="mailto:ceelowym@nus.edu.sg">ceelowym@nus.edu.sg</a>); Yuzhu Pearl LI (<a href="mailto:pearl.li@nus.edu.sg">pearl.li@nus.edu.sg</a>)</p>
 <p><strong>Corresponding author:</strong> Yuzhu Pearl LI (<a href="mailto:pearl.li@nus.edu.sg">pearl.li@nus.edu.sg</a>)</p>
@@ -25,4 +97,6 @@
 <h2 id="acknowledgements">Acknowledgements</h2><p>The authors are grateful to the National Research Foundation of Singapore, PUB (Singapore’s National Water Agency) and the National University of Singapore for supporting this work done in the Coastal Protection and Flood Resilience Institute (CFI) Singapore under the Coastal Protection and Flood Management Research Programme (CFRP). We also extend our sincere appreciation to the PUB Coastal-Inland Flood Model (CIFM) team, whose technical insights and collaborative efforts greatly facilitated the development and refinement of the concept. The conclusions put forward in this publication reflect the views of the authors alone and not necessarily those of CFI Singapore or any of the supporting entities.</p><h2 id="citation-and-license">Citation and License</h2>
 <h3>Copyright</h3>
 <p>Please follow the official COAWST citation guidance and the <a href="https://github.com/DOI-USGS/COAWST/blob/main/LICENSE.md">COAWST license</a>, including the respective licenses of its components. This website documentation is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
-<footer>COAWST belongs to the upstream project and its contributors. SCS identifies our research application.</footer></main></div></body></html>
+<h2 id="development-status">Development Status</h2>
+<p>Offline preview. Raw model inputs, outputs and executables are excluded. This website does not install, compile or run the model.</p>
+<p>The original research project remains read-only for other projects. Copy required material into a separate workspace before adapting or executing it.</p><footer>COAWST belongs to the upstream project and its contributors. SCS identifies our research application.</footer></main></div></body></html>
